@@ -37,7 +37,7 @@ ALPACA_SECRET_KEY=your_secret_here
 ## Usage
 Run the script from the command line:
 ```bash
-python src/etf.py <ETF_SYMBOL> [NROWS] [OUTPUT_FILE]
+python main.py <ETF_SYMBOL> [NROWS] [OUTPUT_FILE]
 ```
 - `<ETF_SYMBOL>`: The ticker symbol of the ETF (e.g., `SPY`)
 - `[NROWS]`: (Optional) Number of holdings to fetch (default: 100)
@@ -45,7 +45,7 @@ python src/etf.py <ETF_SYMBOL> [NROWS] [OUTPUT_FILE]
 
 ### Example
 ```bash
-python src/etf.py SPY 100 spy_output.json
+python main.py SPY 100 spy_output.json
 ```
 
 ## Example Output 
